@@ -1,0 +1,103 @@
+/* currency-converter.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.amount {
+    margin-bottom: 20px;
+}
+
+.amount label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.amount input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.dropdown .from,
+.dropdown .to {
+    width: 48%;
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.select-container img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+select {
+    width: calc(100% - 40px);
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.msg {
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+    color: #00796b;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #00796b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+}
